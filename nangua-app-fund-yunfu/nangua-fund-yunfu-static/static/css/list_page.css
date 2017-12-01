@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/*announcement*/
+/*分页共通样式*/
+#pageGro {
+  width: 500px;
+  height: 25px;
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 75px; }
+
+#pageGro div,
+#pageGro div ul li {
+  font-size: 14px;
+  color: #999;
+  line-height: 30px;
+  float: left;
+  margin-left: 8px;
+  color: #333333; }
+
+.pageUp, .pageDown {
+  text-align: center;
+  border-radius: 3px; }
+
+#pageGro div ul li {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #999;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px; }
+
+#pageGro div ul li.on {
+  color: #fff;
+  background: #38c2c5;
+  border: 1px solid #38c2c5; }
+
+#pageGro div ul li:hover {
+  color: #fff;
+  background: #c3a07d;
+  border: 1px solid #c3a07d; }
+
+.inp_page {
+  width: 60px;
+  height: 28px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin-left: -104px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center; }
+
+#pageGro .pageUp:hover {
+  color: #fff;
+  background: #c3a07d;
+  border: 1px solid #c3a07d; }
+
+#pageGro .pageDown:hover {
+  color: #fff;
+  background: #c3a07d;
+  border: 1px solid #c3a07d; }
+
+#pageGro .pageUp,
+#pageGro .pageDown,
+#pageGro .pagestart,
+#pageGro .pageend {
+  width: 70px;
+  border: 1px solid #999;
+  cursor: pointer; }
+
+.fn_69 {
+  color: #696969; }
+
+.fn_33 {
+  color: #333; }
+
+.fn_blue {
+  color: #299dff; }
+
+.pb60 {
+  padding-bottom: 60px; }
+
+.mt105 {
+  margin-top: 105px; }
+
+.last_child {
+  display: inline-block;
+  width: 100%;
+  height: 53px; }
+
+.nav_list li {
+  width: 115px;
+  height: 58px; }
+
+.nav_list li:hover {
+  background: #c3a07d; }
+
+.nav_list li a {
+  text-align: center; }
+
+.actives {
+  color: #c3a07d; }
+
+.fn_btn {
+  display: block;
+  width: 180px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff !important;
+  background: #1874b7;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px auto 50px; }
+
+.content {
+  margin-top: 45px;
+  margin-bottom: 60px; }
+  .content .content_title {
+    text-align: center;
+    color: #000000;
+    font-size: 24px; }
+  .content .content_text {
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 30px; }
+    .content .content_text p {
+      margin-bottom: 20px; }
+    .content .content_text span {
+      display: block;
+      margin-bottom: 8px; }
+    .content .content_text h4 {
+      font-size: 16px;
+      margin-bottom: 10px; }
+    .content .content_text h3 {
+      font-weight: 800;
+      margin-bottom: 20px;
+      font-size: 16px; }
+  .content .content_texts p {
+    margin-bottom: 15px; }
+  .content img {
+    display: block;
+    margin: 0 auto; }
